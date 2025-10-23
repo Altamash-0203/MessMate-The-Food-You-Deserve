@@ -5,8 +5,10 @@ function Navebar() {
     <>
       <div className="h-20 rounded-l bg-black flex items-center justify-between">
         {/* logo */}
-        <div>
+        <div className = "flex items-center">
           <img className="h-20 w-30" src="/logo.jfif" alt="" />
+          <span className="text-white text-2xl font-extrabold">Mess</span>
+          <span className="text-2xl font-extrabold text-red-500 ">Mate</span>
         </div>
 
          {/* tabs */}
