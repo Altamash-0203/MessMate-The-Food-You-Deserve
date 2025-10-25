@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.svg";
 
 function Navebar() {
   return (
@@ -7,9 +8,9 @@ function Navebar() {
       <div className="h-20 rounded-l bg-black flex items-center justify-between">
         {/* logo */}
         <div className="flex items-center">
-          <img className="h-20 w-30" src="/logo.jfif" alt="" />
+          <img className="h-20 w-30" src={logo} alt="MessMate Logo" />
           <span className="text-white text-2xl font-extrabold">Mess</span>
-          <span className="text-2xl font-extrabold text-red-500 ">Mate</span>
+          <span className="text-2xl font-extrabold text-red-600 ">Mate</span>
         </div>
 
         {/* tabs */}
