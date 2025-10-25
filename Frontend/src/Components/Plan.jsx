@@ -2,7 +2,7 @@ import React from 'react';
 
 function plans() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6">
+    <div className=" mx-auto px-4 py-6 bg-yellow-500 ">
     
       <PricingSection />
       
@@ -39,13 +39,13 @@ function PricingSection() {
   ];
 
   return (
-    <section className="text-center my-12 ">
+    <section className="text-center my-12 w-2/3 mx-auto">
       <h2 className="text-3xl font-bold mb-8">Choose Your Plan</h2>
       <div className="grid md:grid-cols-3 gap-6">
         {plans.map((plan) => (
           <div
             key={plan.title}
-            className={`bg-white rounded-lg shadow-md p-6 border hover:border-red-500 transition ease-in-out duration-300 hove:scale-105 hover:bg-red-500 hover:text-white`}
+            className={`bg-white rounded-lg shadow-md p-6 border hover:border-red-500 transition ease-in-out duration-300  hover:bg-red-500 hover:text-white`}
           >
             <h3 className="text-xl font-semibold mb-2">{plan.title}</h3>
             <p className="text-lg font-bold text-green-800 mb-4">{plan.price}</p>
