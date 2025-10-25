@@ -39,19 +39,17 @@ function PricingSection() {
   ];
 
   return (
-    <section className="text-center my-12">
+    <section className="text-center my-12 ">
       <h2 className="text-3xl font-bold mb-8">Choose Your Plan</h2>
       <div className="grid md:grid-cols-3 gap-6">
         {plans.map((plan) => (
           <div
             key={plan.title}
-            className={`bg-white rounded-lg shadow-md p-6 border ${
-              plan.featured ? 'border-red-500' : 'border-gray-200'
-            }`}
+            className={`bg-white rounded-lg shadow-md p-6 border hover:border-red-500 transition ease-in-out duration-300 hove:scale-105 hover:bg-red-500 hover:text-white`}
           >
             <h3 className="text-xl font-semibold mb-2">{plan.title}</h3>
-            <p className="text-lg font-bold text-gray-800 mb-4">{plan.price}</p>
-            <ul className="text-gray-600 mb-4 space-y-1">
+            <p className="text-lg font-bold text-green-800 mb-4">{plan.price}</p>
+            <ul className="text-black mb-4 space-y-1">
               <li>{plan.meals}</li>
               <li>Flexible</li>
               <li>4–5 options</li>
@@ -61,12 +59,26 @@ function PricingSection() {
                 <li className="text-green-600 font-semibold">{plan.discount}</li>
               )}
             </ul>
-            <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+            <button className="bg-gray-600 text-white px-4 py-2 rounded hover:bg-black transition">
               {plan.button}
             </button>
           </div>
         ))}
       </div>
+
+      <section className='flex flex-col align-center justify-center p-8'>
+        <div className='flex flex-row justify-evenly text-bold m-8'>
+            <p className='font-extrabold text-xl'>Secure Payments</p>
+            <p className='font-extrabold text-xl'>Instant Delivery</p>
+        </div>
+        <div className='flex flex-row justify-evenly  '>
+          <p className='border font-bold rounded-full bg-gray-200 text-red-900 p-2 pl-16 pr-16'>FAQ <br />100% Satisfaction Guarantee</p>
+
+          <p className='border font-bold rounded-full bg-gray-200 text-red-900 p-2 pl-16 pr-16'>How to a week ?<br /> how to cancel ?</p>
+
+          <p className='border font-bold rounded-full bg-gray-200 text-red-900 p-2 pl-16 pr-16'>Delivery Area ? <br /> Payment methods</p>
+        </div>
+      </section>
     </section>
   );
 }
