@@ -5,16 +5,15 @@ import logo from "../assets/logo.svg";
 function Navebar() {
   return (
     <>
-      <div className="h-20 rounded-l bg-black flex items-center justify-between">
+      <div className="h-20  w-auto rounded-l bg-black flex items-center justify-between">
         {/* logo */}
-        <div className="flex items-center">
-          <img className="h-20 w-30" src={logo} alt="MessMate Logo" />
+        <div className="flex items-center ml-5">
           <span className="text-white text-2xl font-extrabold">Mess</span>
           <span className="text-2xl font-extrabold text-red-600 ">Mate</span>
         </div>
 
         {/* tabs */}
-        <div className="text-white w-120">
+        <div className="text-white w-120 mr-5">
           <ul className="flex justify-evenly items-center text">
             <li>
               <Link to="/">Home</Link>
