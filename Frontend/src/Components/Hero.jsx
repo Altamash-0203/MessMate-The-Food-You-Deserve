@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div>
-      <section className="bg-gray-100 ">
+      <section className="bg-gray-100 mt-5 ">
         <div className="flex justify-between">
           <div className="flex flex-col justify-center items-center text-center">
             <h1 className="font-bold text-6xl">
@@ -12,8 +12,8 @@ function Hero() {
               Healthy , tasty and ready in minutes
             </p>
             <div className="p-4">
-              <button className="bg-red-500 text-white font-bold rounded-full p-2 mr-4">
-                Explore menu
+              <button className="bg-red-500 text-white font-bold w-40 rounded-3xl p-2 mr-4 shadow-x hover:bg-lime-500 hover:text-black" >
+                Explore Plans
               </button>
             </div>
           </div>
