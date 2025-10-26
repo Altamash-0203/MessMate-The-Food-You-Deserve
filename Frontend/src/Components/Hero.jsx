@@ -12,7 +12,7 @@ function Hero() {
               Healthy , tasty and ready in minutes
             </p>
             <div className="p-4">
-              <button className="bg-red-500 text-white font-bold w-40 rounded-3xl p-2 mr-4 shadow-x hover:bg-lime-500 hover:text-black" >
+              <button className="bg-red-400 text-white font-bold w-40 rounded-3xl p-2 mr-4 shadow-x hover:bg-red-600 " >
                 Explore Plans
               </button>
             </div>

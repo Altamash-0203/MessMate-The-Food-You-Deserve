@@ -15,16 +15,32 @@ function Navebar() {
         {/* tabs */}
         <div className="text-white w-120 mr-5">
           <ul className="flex justify-evenly items-center text">
-            <li>
+            <li
+              className="relative text-l font-thin text-white after:absolute after:left-0 after:bottom-0 
+  after:w-0 after:h-[2px] after:bg-orange-500 after:transition-all after:duration-700 
+  hover:after:w-full"
+            >
               <Link to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/features">Features</Link>
+            <li
+              className="relative text-l font-thin text-white after:absolute after:left-0 after:bottom-0 
+  after:w-0 after:h-[2px] after:bg-orange-500 after:transition-all after:duration-700 
+  hover:after:w-full"
+            >
+              <Link to="/feature">Features</Link>
             </li>
-            <li>
+            <li
+              className="relative text-l font-thin text-white after:absolute after:left-0 after:bottom-0 
+  after:w-0 after:h-[2px] after:bg-orange-500 after:transition-all after:duration-700 
+  hover:after:w-full"
+            >
               <Link to="/plan">Plan</Link>
             </li>
-            <li>
+            <li
+              className="relative text-l font-thin text-white after:absolute after:left-0 after:bottom-0 
+  after:w-0 after:h-[2px] after:bg-orange-500 after:transition-all after:duration-700 
+  hover:after:w-full"
+            >
               <Link to="/login">Signup/Profile</Link>
             </li>
           </ul>
