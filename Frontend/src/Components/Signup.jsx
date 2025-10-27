@@ -18,6 +18,7 @@ const SignUp = () => {
             type="email"
             name="email"
             placeholder="email"
+            action="add-user"
           />
           <input
             className="border-0 border-b-2 focus:outline-none foucs:border-b-white text-gray-700 p-2"

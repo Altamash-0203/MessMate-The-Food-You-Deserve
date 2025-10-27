@@ -49,13 +49,13 @@ function PricingSection() {
   ];
 
   return (
-    <section className="text-center my-12 w-2/3 mx-auto">
-      <h2 className="text-3xl font-bold mb-8">Choose Your Plan</h2>
-      <div className="grid md:grid-cols-3 gap-6">
+    <section className="text-center my-12 flex-col justify-center items-center  mx-auto">
+      <h2 className="text-3xl font-bold mb-8 bg-gray-400">Choose Your Plan</h2>
+      <div className=" flex flex-col lg:flex  justify-between items-center gap-6">
         {plans.map((plan) => (
           <div
             key={plan.title}
-            className={`bg-white rounded-lg shadow-md p-6 border hover:border-red-500 transition ease-in-out duration-300  hover:bg-red-500 hover:text-white`}
+            className={`bg-white w-100  rounded-lg shadow-md p-6 border hover:border-red-500 transition ease-in-out duration-300  hover:bg-red-500 hover:text-white`}
           >
             <div className="flex items-center justify-center mb-4">
               <FontAwesomeIcon
@@ -108,24 +108,46 @@ function PricingSection() {
         ))}
       </div>
 
-      <section className="flex flex-col align-center justify-center p-8">
-        <div className="flex flex-row justify-evenly text-bold m-8">
-          <p className="font-extrabold text-xl">Secure Payments</p>
-          <p className="font-extrabold text-xl">Instant Delivery</p>
-        </div>
-        <div className="flex flex-row justify-evenly  ">
-          <p className="border font-bold rounded-full bg-gray-200 text-red-900 p-2 pl-16 pr-16">
+
+        
+        <section className=" grid lg:flex gap-4  justify-evenly  mt-8">
+        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col items-center gap-4 p-12 ">
+          <p className="font-thin  text-2xl">
             FAQ <br />
             100% Satisfaction Guarantee
           </p>
+          <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/1660/1660114.png" alt="" />
+        </div>
 
-          <p className="border font-bold rounded-full bg-gray-200 text-red-900 p-2 pl-16 pr-16">
-            How to a week ?<br /> how to cancel ?
+        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
+          <p className="font-thin  text-2xl">
+            How To A Week ?<br /> How To Cancel ?
           </p>
+                    <img className="w-30" src="src\assets\delivery.png" alt="" />
+        </div>
 
-          <p className="border font-bold rounded-full bg-gray-200 text-red-900 p-2 pl-16 pr-16">
+        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
+          <p className="font-thin  text-2xl">
             Delivery Area ? <br /> Payment methods
           </p>
+                    <img className="w-30" src="src\assets\persenolized.png" alt="" />
+        </div>
+      </section>
+      <section className="flex flex-col align-center justify-center p-8">
+        <div className="flex flex-row justify-evenly text-bold m-8">
+          <marquee behavior="" className="bg-red-500" direction="">
+            Secure Payments-------------------------Instant Delivery
+            Secure Payments-------------------------Instant Delivery
+            Secure Payments-------------------------Instant Delivery
+          
+          </marquee>
+        </div>
+        <div className="flex flex-row justify-evenly  ">
+          
+
+         
+
+          
         </div>
       </section>
     </section>

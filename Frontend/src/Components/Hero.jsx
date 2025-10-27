@@ -139,14 +139,12 @@ function Hero() {
                     </div>
 
                     <div className="flex items-center justify-between mb-4">
-                      <div className="text-2xl font-bold text-red-600">
-                        ₹{meal.price}
-                      </div>
+                    
                       <div className="text-sm text-gray-500">Free Delivery</div>
                     </div>
 
                     <button className="w-full bg-red-500 text-white py-2 rounded-lg font-semibold hover:bg-red-600 transform hover:-translate-y-1 transition-all duration-200">
-                      Order Now • ₹{meal.price}
+                      Order In Todays Tiffin
                     </button>
                   </div>
                 </div>
