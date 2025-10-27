@@ -67,17 +67,17 @@ function Hero() {
       <section className=" grid lg:flex gap-4  justify-evenly  mt-8">
         <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col items-center gap-4 p-12 ">
           <h2 className="font-extrabold">Healthy Option</h2>
-          <img className="w-30" src="src\assets\healty.png" alt="" />
+          <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/5769/5769676.png" alt="" />
         </div>
 
         <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
           <h2 className="font-extrabold">Fast Delivery</h2>
-                    <img className="w-30" src="src\assets\delivery.png" alt="" />
+                    <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/5637/5637217.png" alt="" />
         </div>
 
         <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
           <h2 className="font-extrabold">Personalized Menu</h2>
-                    <img className="w-30" src="src\assets\persenolized.png" alt="" />
+                    <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/1042/1042025.png" alt="" />
         </div>
       </section>
 
@@ -151,27 +151,6 @@ function Hero() {
               ))}
             </div>
           )}
-
-          <div className="text-center mt-12">
-            <button className="bg-gray-900 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transform hover:-translate-y-1 transition-all duration-200 inline-flex items-center">
-              <Link to='/plan'>
-              View Full Menu
-              </Link>
-              <svg
-                className="w-4 h-4 ml-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
-          </div>
         </div>
       </section>
     </div>

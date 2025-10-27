@@ -123,19 +123,19 @@ function PricingSection() {
           <p className="font-thin  text-2xl">
             How To A Week ?<br /> How To Cancel ?
           </p>
-                    <img className="w-30" src="src\assets\delivery.png" alt="" />
+                    <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/5139/5139238.png" alt="" />
         </div>
 
         <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
           <p className="font-thin  text-2xl">
             Delivery Area ? <br /> Payment methods
           </p>
-                    <img className="w-30" src="src\assets\persenolized.png" alt="" />
+                    <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/8983/8983163.png" alt="" />
         </div>
       </section>
       <section className="flex flex-col align-center justify-center p-8">
         <div className="flex flex-row justify-evenly text-bold m-8">
-          <marquee behavior="" className="bg-red-500" direction="">
+          <marquee behavior="" className=" text-white bg-red-500" direction="">
             Secure Payments-------------------------Instant Delivery
             Secure Payments-------------------------Instant Delivery
             Secure Payments-------------------------Instant Delivery
