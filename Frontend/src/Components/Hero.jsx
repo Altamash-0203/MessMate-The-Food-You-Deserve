@@ -56,7 +56,7 @@ function Hero() {
 
           <div className="">
             <img
-              className="rounded-lg h-80 w-120"
+              className="rounded-lg h-80 w-120 hidden md:block"
               src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?q=80&w=1200&auto=format&fit=crop"
               alt="Colorful healthy bowl"
             />
@@ -64,10 +64,10 @@ function Hero() {
         </div>
       </section>
 
-      <section className="flex justify-evenly mt-8">
-        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 pl-20 pr-20">
+      <section className=" grid lg:flex gap-4  justify-evenly  mt-8">
+        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 pl-20 pr-20">
           <h2 className="font-extrabold">Healthy Option</h2>
-          <img src="src\assets\delivery.png" alt="" />
+          <img className="w-30" src="src\assets\delivery.png" alt="" />
           <p>
             Nutritious meals <br /> tailored to your needs
           </p>
