@@ -65,24 +65,19 @@ function Hero() {
       </section>
 
       <section className=" grid lg:flex gap-4  justify-evenly  mt-8">
-        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 pl-20 pr-20">
+        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col items-center gap-4 p-12 ">
           <h2 className="font-extrabold">Healthy Option</h2>
-          <img className="w-30" src="src\assets\delivery.png" alt="" />
-          <p>
-            Nutritious meals <br /> tailored to your needs
-          </p>
+          <img className="w-30" src="src\assets\healty.png" alt="" />
         </div>
 
-        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 pl-20 pr-20">
+        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
           <h2 className="font-extrabold">Fast Delivery</h2>
-          <p>
-            30 minutes from <br /> order to the door{" "}
-          </p>
+                    <img className="w-30" src="src\assets\delivery.png" alt="" />
         </div>
 
-        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 pl-20 pr-20">
+        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
           <h2 className="font-extrabold">Personalized Menu</h2>
-          <p>Choose what you love/p</p>
+                    <img className="w-30" src="src\assets\persenolized.png" alt="" />
         </div>
       </section>
 

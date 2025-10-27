@@ -5,6 +5,7 @@ import Navebar from "./Components/Navbar";
 import Login from "./Components/Login.jsx";
 import SignUp from "./Components/Signup.jsx";
 import Plans from "./Components/Plan.jsx";
+import Footer from "./Components/Footer.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/plan" element={<Plans />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
