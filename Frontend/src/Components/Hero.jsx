@@ -32,6 +32,7 @@ function Hero() {
 
         <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 pl-20 pr-20">
           <h2 className="font-extrabold">Healthy Option</h2>
+          <img src="src\assets\delivery.png" alt="" />
           <p>
             Nutritious meals <br /> tailored to your needs
           </p>
