@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className="bg-[url('https://images.unsplash.com/photo-1594046243098-0fceea9d451e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470')] min-h-screen bg-cover bg-center bg-no-repeat p-24">
-      <div className="p-8 w-auto max-w-xl mx-auto text-center flex gap-20 flex-col bg-yellow-500 rounded-xl  shadow-xl">
+      <div className="p-8 max-auto w-1/3 mx-auto text-center flex gap-20 flex-col bg-yellow-500 rounded-xl  shadow-xl">
         <div>
           <h2 className="text-2xl font-extrabold text-red-700">
             <span className="text-black">Mess</span>

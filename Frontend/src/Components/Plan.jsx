@@ -14,7 +14,7 @@ import {
 
 function plans() {
   return (
-    <div className="bg-[url('https://images.unsplash.com/photo-1594046243098-0fceea9d451e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470')] min-h-screen bg-cover bg-center bg-no-repeat mx-auto px-4 py-6">
+    <div className="bg-[url('https://images.unsplash.com/photo-1594046243098-0fceea9d451e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470')] min-h-screen bg-cover bg-center bg-no-repeat px-4 py-6">
       {/* <div className=" mx-auto px-4 py-6 bg-yellow-500 "> */}
 
       <PricingSection />
@@ -51,11 +51,11 @@ function PricingSection() {
   return (
     <section className="text-center my-12 flex-col justify-center items-center  mx-auto">
       <h2 className="text-3xl font-bold mb-8 bg-gray-400">Choose Your Plan</h2>
-      <div className=" flex flex-col lg:flex  justify-between items-center gap-6">
+      <div className=" flex flex-row justify-evenly items-center gap-6">
         {plans.map((plan) => (
           <div
             key={plan.title}
-            className={`bg-white w-100  rounded-lg shadow-md p-6 border hover:border-red-500 transition ease-in-out duration-300  hover:bg-red-500 hover:text-white`}
+            className={`bg-white w-2/9  rounded-lg shadow-md p-6 border hover:border-red-500 transition ease-in-out duration-300  hover:bg-red-500 hover:text-white`}
           >
             <div className="flex items-center justify-center mb-4">
               <FontAwesomeIcon
@@ -110,27 +110,27 @@ function PricingSection() {
 
 
         
-        <section className=" grid lg:flex gap-4  justify-evenly  mt-8">
-        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col items-center gap-4 p-12 ">
-          <p className="font-thin  text-2xl">
+        <section className=" flex lg:flex gap-4  justify-evenly  mt-8">
+        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col items-center gap-2 p-2 ">
+          <p className="font-thin text-lg">
             FAQ <br />
             100% Satisfaction Guarantee
           </p>
-          <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/1660/1660114.png" alt="" />
+          <img className="w-10" src="https://cdn-icons-png.flaticon.com/128/1660/1660114.png" alt="" />
         </div>
 
-        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
-          <p className="font-thin  text-2xl">
+        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col items-center gap-2 p-2 ">
+          <p className="font-thin  text-xl">
             How To A Week ?<br /> How To Cancel ?
           </p>
-                    <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/5139/5139238.png" alt="" />
+                    <img className="w-15" src="https://cdn-icons-png.flaticon.com/128/5139/5139238.png" alt="" />
         </div>
 
-        <div className="border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col gap-4 p-12 items-center">
-          <p className="font-thin  text-2xl">
+        <div className="  border border-gray-100 bg-gray-100 shadow-xs hover:shadow-xl rounded-xl flex flex-col items-center gap-2 p-2 ">
+          <p className="font-thin  text-xl">
             Delivery Area ? <br /> Payment methods
           </p>
-                    <img className="w-30" src="https://cdn-icons-png.flaticon.com/128/8983/8983163.png" alt="" />
+                    <img className="w-15" src="https://cdn-icons-png.flaticon.com/128/8983/8983163.png" alt="" />
         </div>
       </section>
       <section className="flex flex-col align-center justify-center p-8">
