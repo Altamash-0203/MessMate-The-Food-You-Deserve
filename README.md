@@ -16,11 +16,6 @@
 
 ---
 
-## 🎥 Video Walkthroughs
-- Codebase Overview & Demo: *(Add your walkthrough video link here)*
-
----
-
 ## 🚀 Features
 - Browse daily meal menus
 - Select preferred meals easily
